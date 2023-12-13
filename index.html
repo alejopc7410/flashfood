@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flash Food</title>
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+        <script src="./assets/script/index.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container flexbox">
+                <h1><span>Flash</span>Food</h1>
+                <div class="search-div"><input type="text" placeholder="Search dishes, products, stores"></div>
+                <nav>
+                    <ul>
+                        <li>ABOUT US</li>
+                        <li>DISHES</li>
+                        <li>PROMOTIONS</li>
+                    </ul>
+                    <button class="join-now-btn">JOIN NOW</button>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="hero-banner">
+                <h2>¿What do you want today?</h2>
+                <div class="categories">
+                    <div class="categories-div"><img src="./assets/style/images/hamburger-icon.png" alt="hamburguer"><p>Hamburguer</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/sushi.png" alt="sushi"><p>Asian</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/sweets.png" alt="candy"><p>Candies</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/hot-soup.png" alt="soup"><p>Soup</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/wine-bottle.png" alt="wine"><p>Wine</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/cake.png" alt="cake"><p>Dessert</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/breakfast.png" alt="breakfast"><p>Breakfast</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/coffee-icon.png" alt="coffee"><p>Coffee</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/pizza.png" alt="pizza"><p>Pizza</p></div>
+                    <div class="categories-div"><img src="./assets/style/images/vegetable.png" alt="vegetables"><p>Vegetables</p></div>
+                </div>
+            </div>
+            <div class="info-banner">
+                <div class="info-div">
+                    <div class="info">
+                        <p>
+                            <span>All you want in one place</span>
+                            Welcome to our fast-food haven, where taste meets speed in a symphony of flavors! At 
+                            Flash Food, we're passionate about serving up quick, delicious, and 
+                            satisfying meals for the moments when hunger strikes and time is of the essence. 
+                            Our menu is carefully crafted to 
+                            offer a diverse range of options, from classic favorites to innovative creations, 
+                            ensuring there's something for every palate. Whether you're on a lunch break, a family 
+                            outing, or just in the mood for a delightful treat, we've got you covered. Join us and indulge 
+                            in the joy of convenient and tasty dining!
+                        </p>
+                    </div>
+                    <div class="info-img">
+                        <img src="./assets/style/images/Family-dinner.jpg" alt="Family dinner">
+                    </div>
+                </div>
+            </div>
+            <div class="map-div">
+                <h2>All good things start here!</h2>
+                <p>
+                    Let us access to your position to show you which are the nearest stores to you. This gonna help us to bring you
+                    the best experience. Click the button below
+                </p>
+                <button class="accept-btn">GET LOCATION</button>
+                <div id="map"></div>
+            </div>
+            
+        </main>
+        <footer>
+            <div class="help-menu">
+                <div class="help-menu-box box1">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li>History</li>
+                        <li>Locations</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="help-menu-box box2">
+                    <h3>Helpful Links</h3>
+                    <ul>
+                        <li>Membership</li>
+                        <li>Carrers</li>
+                        <li>Awards</li>
+                    </ul>
+                </div>
+                <div class="help-menu-box box3">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Q&A</li>
+                        <li>Partners</li>
+                        <li>Products</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-div">
+                <input type="text">
+            </div>
+        </footer>
+    </body>
+</html>
